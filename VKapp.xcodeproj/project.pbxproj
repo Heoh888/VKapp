@@ -13,6 +13,7 @@
 		FA07C4C925BF6662009E1E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA07C4C725BF6662009E1E5B /* Main.storyboard */; };
 		FA07C4CB25BF6664009E1E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA07C4CA25BF6664009E1E5B /* Assets.xcassets */; };
 		FA07C4CE25BF6664009E1E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA07C4CC25BF6664009E1E5B /* LaunchScreen.storyboard */; };
+		FA5FFBB125C85D8C00C50F15 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FFBB025C85D8C00C50F15 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA07C4CA25BF6664009E1E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA07C4CD25BF6664009E1E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA07C4CF25BF6664009E1E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5FFBB025C85D8C00C50F15 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA07C4C125BF6662009E1E5B /* AppDelegate.swift */,
 				FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */,
 				FA07C4C525BF6662009E1E5B /* ViewController.swift */,
+				FA5FFBB025C85D8C00C50F15 /* TableViewController.swift */,
 				FA07C4C725BF6662009E1E5B /* Main.storyboard */,
 				FA07C4CA25BF6664009E1E5B /* Assets.xcassets */,
 				FA07C4CC25BF6664009E1E5B /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				FA07C4C625BF6662009E1E5B /* ViewController.swift in Sources */,
 				FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */,
 				FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */,
+				FA5FFBB125C85D8C00C50F15 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +290,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RQ87S3853;
 				INFOPLIST_FILE = VKapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.VKapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +312,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RQ87S3853;
 				INFOPLIST_FILE = VKapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.VKapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
