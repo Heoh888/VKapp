@@ -36,7 +36,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button(_ sender: Any) {
+        let storyoard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyoard.instantiateViewController(identifier: "lowerBar")
+        
         if pass.text == "123" && log.text == "123"{
+            self.present(vc, animated: true, completion: nil)
             print("Вы вошли")
         }
     }
@@ -109,8 +113,6 @@ class ViewController: UIViewController {
         deviceType()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
 extension ViewController {
