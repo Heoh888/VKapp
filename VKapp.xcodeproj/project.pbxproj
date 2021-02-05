@@ -65,9 +65,6 @@
 				FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */,
 				FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */,
 				FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */,
-				FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */,
-				FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */,
-				FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */,
 			);
 			path = MyCall;
 			sourceTree = "<group>";
@@ -96,6 +93,9 @@
 				FA07C4C125BF6662009E1E5B /* AppDelegate.swift */,
 				FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */,
 				FA07C4C525BF6662009E1E5B /* ViewController.swift */,
+				FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */,
+				FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */,
+				FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */,
 				FA07C4C725BF6662009E1E5B /* Main.storyboard */,
 				FA07C4CA25BF6664009E1E5B /* Assets.xcassets */,
 				FA07C4CC25BF6664009E1E5B /* LaunchScreen.storyboard */,
