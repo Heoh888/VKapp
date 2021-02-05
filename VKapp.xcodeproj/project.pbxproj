@@ -14,6 +14,11 @@
 		FA07971625CE015E00D7EEEC /* GroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07971425CE015E00D7EEEC /* GroupsTableViewCell.swift */; };
 		FA07971725CE015E00D7EEEC /* GroupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */; };
 		FA07971B25CE03BC00D7EEEC /* SearchGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */; };
+		FA07972325CE04F100D7EEEC /* GroupSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07972125CE04F100D7EEEC /* GroupSearchTableViewCell.swift */; };
+		FA07972425CE04F100D7EEEC /* GroupSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA07972225CE04F100D7EEEC /* GroupSearchTableViewCell.xib */; };
+		FA07972825CE096500D7EEEC /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07972725CE096500D7EEEC /* GalleryCollectionViewController.swift */; };
+		FA07972C25CE09A000D7EEEC /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07972A25CE09A000D7EEEC /* GalleryCollectionViewCell.swift */; };
+		FA07972D25CE09A000D7EEEC /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA07972B25CE09A000D7EEEC /* GalleryCollectionViewCell.xib */; };
 		FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C125BF6662009E1E5B /* AppDelegate.swift */; };
 		FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */; };
 		FA07C4C625BF6662009E1E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C525BF6662009E1E5B /* ViewController.swift */; };
@@ -30,6 +35,11 @@
 		FA07971425CE015E00D7EEEC /* GroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewCell.swift; sourceTree = "<group>"; };
 		FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsTableViewCell.xib; sourceTree = "<group>"; };
 		FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupTableViewController.swift; sourceTree = "<group>"; };
+		FA07972125CE04F100D7EEEC /* GroupSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSearchTableViewCell.swift; sourceTree = "<group>"; };
+		FA07972225CE04F100D7EEEC /* GroupSearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupSearchTableViewCell.xib; sourceTree = "<group>"; };
+		FA07972725CE096500D7EEEC /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		FA07972A25CE09A000D7EEEC /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA07972B25CE09A000D7EEEC /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 		FA07C4BE25BF6662009E1E5B /* VKapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA07C4C125BF6662009E1E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +71,10 @@
 		FA0796FA25CDEFE300D7EEEC /* MyCall */ = {
 			isa = PBXGroup;
 			children = (
+				FA07972A25CE09A000D7EEEC /* GalleryCollectionViewCell.swift */,
+				FA07972B25CE09A000D7EEEC /* GalleryCollectionViewCell.xib */,
+				FA07972125CE04F100D7EEEC /* GroupSearchTableViewCell.swift */,
+				FA07972225CE04F100D7EEEC /* GroupSearchTableViewCell.xib */,
 				FA07971425CE015E00D7EEEC /* GroupsTableViewCell.swift */,
 				FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */,
 				FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */,
@@ -93,6 +107,7 @@
 				FA07C4C125BF6662009E1E5B /* AppDelegate.swift */,
 				FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */,
 				FA07C4C525BF6662009E1E5B /* ViewController.swift */,
+				FA07972725CE096500D7EEEC /* GalleryCollectionViewController.swift */,
 				FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */,
 				FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */,
 				FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */,
@@ -164,7 +179,9 @@
 				FA07C4CE25BF6664009E1E5B /* LaunchScreen.storyboard in Resources */,
 				FA07C4CB25BF6664009E1E5B /* Assets.xcassets in Resources */,
 				FA07971725CE015E00D7EEEC /* GroupsTableViewCell.xib in Resources */,
+				FA07972425CE04F100D7EEEC /* GroupSearchTableViewCell.xib in Resources */,
 				FA07C4C925BF6662009E1E5B /* Main.storyboard in Resources */,
+				FA07972D25CE09A000D7EEEC /* GalleryCollectionViewCell.xib in Resources */,
 				FA07970525CDF73700D7EEEC /* FriendsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,9 +198,12 @@
 				FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */,
 				FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */,
 				FA07971625CE015E00D7EEEC /* GroupsTableViewCell.swift in Sources */,
+				FA07972825CE096500D7EEEC /* GalleryCollectionViewController.swift in Sources */,
 				FA07970425CDF73700D7EEEC /* FriendsTableViewCell.swift in Sources */,
 				FA0796FD25CDF33E00D7EEEC /* FriendsTableViewController.swift in Sources */,
+				FA07972C25CE09A000D7EEEC /* GalleryCollectionViewCell.swift in Sources */,
 				FA07971025CDFF3A00D7EEEC /* GroupsTableViewController.swift in Sources */,
+				FA07972325CE04F100D7EEEC /* GroupSearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

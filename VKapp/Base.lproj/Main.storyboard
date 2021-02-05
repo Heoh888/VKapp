@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sr1-j5-ZGr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -222,7 +222,7 @@
         <!--Галерея-->
         <scene sceneID="xNQ-fZ-64s">
             <objects>
-                <collectionViewController storyboardIdentifier="myGallery" hidesBottomBarWhenPushed="YES" id="oxy-A2-N7e" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="myGallery" hidesBottomBarWhenPushed="YES" id="oxy-A2-N7e" customClass="GalleryCollectionViewController" customModule="VKapp" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GmX-zJ-6lp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,6 +316,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Поиск по группам" id="sW2-8V-v9G"/>
+                    <connections>
+                        <outlet property="groupSearchTableView" destination="VjY-8Z-i25" id="s4T-46-cNo"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Vr-LI-M77" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
