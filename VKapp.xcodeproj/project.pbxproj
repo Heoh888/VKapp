@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0796FD25CDF33E00D7EEEC /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */; };
+		FA07970425CDF73700D7EEEC /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */; };
+		FA07970525CDF73700D7EEEC /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */; };
 		FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C125BF6662009E1E5B /* AppDelegate.swift */; };
 		FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */; };
 		FA07C4C625BF6662009E1E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C525BF6662009E1E5B /* ViewController.swift */; };
 		FA07C4C925BF6662009E1E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA07C4C725BF6662009E1E5B /* Main.storyboard */; };
 		FA07C4CB25BF6664009E1E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA07C4CA25BF6664009E1E5B /* Assets.xcassets */; };
 		FA07C4CE25BF6664009E1E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA07C4CC25BF6664009E1E5B /* LaunchScreen.storyboard */; };
-		FA5FFBB125C85D8C00C50F15 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FFBB025C85D8C00C50F15 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
 		FA07C4BE25BF6662009E1E5B /* VKapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA07C4C125BF6662009E1E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +30,6 @@
 		FA07C4CA25BF6664009E1E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA07C4CD25BF6664009E1E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA07C4CF25BF6664009E1E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5FFBB025C85D8C00C50F15 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0796DF25CDB11300D7EEEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA0796FA25CDEFE300D7EEEC /* MyCall */ = {
+			isa = PBXGroup;
+			children = (
+				FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */,
+				FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */,
+			);
+			path = MyCall;
+			sourceTree = "<group>";
+		};
 		FA07C4B525BF6662009E1E5B = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +78,12 @@
 		FA07C4C025BF6662009E1E5B /* VKapp */ = {
 			isa = PBXGroup;
 			children = (
+				FA0796FA25CDEFE300D7EEEC /* MyCall */,
+				FA0796DF25CDB11300D7EEEC /* Model */,
 				FA07C4C125BF6662009E1E5B /* AppDelegate.swift */,
 				FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */,
+				FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */,
 				FA07C4C525BF6662009E1E5B /* ViewController.swift */,
-				FA5FFBB025C85D8C00C50F15 /* TableViewController.swift */,
 				FA07C4C725BF6662009E1E5B /* Main.storyboard */,
 				FA07C4CA25BF6664009E1E5B /* Assets.xcassets */,
 				FA07C4CC25BF6664009E1E5B /* LaunchScreen.storyboard */,
@@ -130,6 +152,7 @@
 				FA07C4CE25BF6664009E1E5B /* LaunchScreen.storyboard in Resources */,
 				FA07C4CB25BF6664009E1E5B /* Assets.xcassets in Resources */,
 				FA07C4C925BF6662009E1E5B /* Main.storyboard in Resources */,
+				FA07970525CDF73700D7EEEC /* FriendsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +166,8 @@
 				FA07C4C625BF6662009E1E5B /* ViewController.swift in Sources */,
 				FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */,
 				FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */,
-				FA5FFBB125C85D8C00C50F15 /* TableViewController.swift in Sources */,
+				FA07970425CDF73700D7EEEC /* FriendsTableViewCell.swift in Sources */,
+				FA0796FD25CDF33E00D7EEEC /* FriendsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

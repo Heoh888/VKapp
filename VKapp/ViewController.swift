@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var pass: UITextField!
     @IBOutlet weak var log: UITextField!
+    @IBOutlet weak var invalidUser: UILabel!
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape {
@@ -42,6 +43,8 @@ class ViewController: UIViewController {
         if pass.text == "123" && log.text == "123"{
             self.present(vc, animated: true, completion: nil)
             print("Вы вошли")
+        } else {
+            invalidUser.text = "Неверный логин или пароль"
         }
     }
     		
@@ -112,6 +115,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         deviceType()
         // Do any additional setup after loading the view.
+        
     }
 }
 
