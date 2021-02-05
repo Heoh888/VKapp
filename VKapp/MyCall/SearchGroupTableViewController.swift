@@ -1,5 +1,5 @@
 //
-//  GroupsTableViewController.swift
+//  SearchGroupTableViewController.swift
 //  VKapp
 //
 //  Created by MacBook on 06.02.2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GroupsTableViewController: UITableViewController {
+class SearchGroupTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

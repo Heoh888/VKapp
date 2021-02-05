@@ -284,6 +284,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="groupsTableView" destination="Nuz-6X-heV" id="D3Z-Qv-4h6"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o4q-nA-rJx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -292,7 +295,7 @@
         <!--Поиск по группам-->
         <scene sceneID="0yb-Om-eAm">
             <objects>
-                <tableViewController hidesBottomBarWhenPushed="YES" id="yvY-sZ-XFn" sceneMemberID="viewController">
+                <tableViewController hidesBottomBarWhenPushed="YES" id="yvY-sZ-XFn" customClass="SearchGroupTableViewController" customModule="VKapp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="VjY-8Z-i25">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

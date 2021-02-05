@@ -11,6 +11,9 @@
 		FA07970425CDF73700D7EEEC /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */; };
 		FA07970525CDF73700D7EEEC /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */; };
 		FA07971025CDFF3A00D7EEEC /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */; };
+		FA07971625CE015E00D7EEEC /* GroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07971425CE015E00D7EEEC /* GroupsTableViewCell.swift */; };
+		FA07971725CE015E00D7EEEC /* GroupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */; };
+		FA07971B25CE03BC00D7EEEC /* SearchGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */; };
 		FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C125BF6662009E1E5B /* AppDelegate.swift */; };
 		FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */; };
 		FA07C4C625BF6662009E1E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C4C525BF6662009E1E5B /* ViewController.swift */; };
@@ -24,6 +27,9 @@
 		FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
 		FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		FA07971425CE015E00D7EEEC /* GroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewCell.swift; sourceTree = "<group>"; };
+		FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsTableViewCell.xib; sourceTree = "<group>"; };
+		FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupTableViewController.swift; sourceTree = "<group>"; };
 		FA07C4BE25BF6662009E1E5B /* VKapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA07C4C125BF6662009E1E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +61,13 @@
 		FA0796FA25CDEFE300D7EEEC /* MyCall */ = {
 			isa = PBXGroup;
 			children = (
+				FA07971425CE015E00D7EEEC /* GroupsTableViewCell.swift */,
+				FA07971525CE015E00D7EEEC /* GroupsTableViewCell.xib */,
 				FA07970225CDF73600D7EEEC /* FriendsTableViewCell.swift */,
 				FA07970325CDF73700D7EEEC /* FriendsTableViewCell.xib */,
+				FA07971A25CE03BC00D7EEEC /* SearchGroupTableViewController.swift */,
+				FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */,
+				FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */,
 			);
 			path = MyCall;
 			sourceTree = "<group>";
@@ -84,8 +95,6 @@
 				FA0796DF25CDB11300D7EEEC /* Model */,
 				FA07C4C125BF6662009E1E5B /* AppDelegate.swift */,
 				FA07C4C325BF6662009E1E5B /* SceneDelegate.swift */,
-				FA07970F25CDFF3900D7EEEC /* GroupsTableViewController.swift */,
-				FA0796FC25CDF33E00D7EEEC /* FriendsTableViewController.swift */,
 				FA07C4C525BF6662009E1E5B /* ViewController.swift */,
 				FA07C4C725BF6662009E1E5B /* Main.storyboard */,
 				FA07C4CA25BF6664009E1E5B /* Assets.xcassets */,
@@ -154,6 +163,7 @@
 			files = (
 				FA07C4CE25BF6664009E1E5B /* LaunchScreen.storyboard in Resources */,
 				FA07C4CB25BF6664009E1E5B /* Assets.xcassets in Resources */,
+				FA07971725CE015E00D7EEEC /* GroupsTableViewCell.xib in Resources */,
 				FA07C4C925BF6662009E1E5B /* Main.storyboard in Resources */,
 				FA07970525CDF73700D7EEEC /* FriendsTableViewCell.xib in Resources */,
 			);
@@ -167,8 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA07C4C625BF6662009E1E5B /* ViewController.swift in Sources */,
+				FA07971B25CE03BC00D7EEEC /* SearchGroupTableViewController.swift in Sources */,
 				FA07C4C225BF6662009E1E5B /* AppDelegate.swift in Sources */,
 				FA07C4C425BF6662009E1E5B /* SceneDelegate.swift in Sources */,
+				FA07971625CE015E00D7EEEC /* GroupsTableViewCell.swift in Sources */,
 				FA07970425CDF73700D7EEEC /* FriendsTableViewCell.swift in Sources */,
 				FA0796FD25CDF33E00D7EEEC /* FriendsTableViewController.swift in Sources */,
 				FA07971025CDFF3A00D7EEEC /* GroupsTableViewController.swift in Sources */,
