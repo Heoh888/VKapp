@@ -31,7 +31,11 @@
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="139" y="108"/>
+            <connections>
+                <outlet property="UserName" destination="pVF-Lg-Mzx" id="MEr-nm-l3I"/>
+                <outlet property="avatar" destination="gZF-gC-vz0" id="NOt-42-TUQ"/>
+            </connections>
+            <point key="canvasLocation" x="232" y="13"/>
         </tableViewCell>
     </objects>
     <resources>

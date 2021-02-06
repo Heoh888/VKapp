@@ -30,6 +30,9 @@
                 <constraint firstAttribute="bottom" secondItem="A88-fu-rNn" secondAttribute="bottom" constant="5" id="xl2-qc-p2W"/>
             </constraints>
             <size key="customSize" width="244" height="243"/>
+            <connections>
+                <outlet property="avatarGallery" destination="A88-fu-rNn" id="sZk-gT-gN1"/>
+            </connections>
             <point key="canvasLocation" x="276.81159420289856" y="150.33482142857142"/>
         </collectionViewCell>
     </objects>

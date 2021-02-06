@@ -9,6 +9,7 @@ import UIKit
 
 class GalleryCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var avatarGallery: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

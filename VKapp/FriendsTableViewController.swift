@@ -27,16 +27,20 @@ class FriendsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return User.init().friends.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 10
+        return User.init().friends[section].count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCall", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCall", for: indexPath) as! FriendsTableViewCell
+        cell.UserName.text = User.init().friends[indexPath.section][indexPath.row]
+        cell.avatar.image = User.init().logoImage[indexPath.section][indexPath.row]
+        
+        
         return cell
     }
     
@@ -44,8 +48,11 @@ class FriendsTableViewController: UITableViewController {
         let storyoard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyoard.instantiateViewController(identifier: "myGallery")
         vc.modalPresentationStyle = .fullScreen
-        self.navigationController?.pushViewController(vc, animated: true)
+        self.navigationController?.pushViewController(vc, animated: true)       
+        print(tableView.indexPathForSelectedRow!)
     }
+    
+
     
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
